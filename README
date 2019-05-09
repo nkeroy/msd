@@ -1,0 +1,10 @@
+For Weather Forecast App,
+the API extraction and relevant functions implemented are all in App.js.
+
+src > App.js
+
+App is a component class here that has a this.state to hold the API weather data from openweathermap.org.
+
+componentDidMount() -> loads from the API and retrieves the weather data from today until 5 days later
+
+handleDateChange(event) -> filters out the API data by user input date, once the user has input a date to get the weather forecast
